@@ -20,7 +20,7 @@ jobs:
       - name: Eggplant Runner
         uses: keysight-eggplant/eggplant-github-action@v1.0.2
         with:
-          serverURL: "http://localhost:8000"
+          serverURL: "http://localhost:8000/"
           clientID: "client:dai:agent:integration"
           testConfigID: "2b43fd4b-c576-4f6e-9112-7b56131459aa" # Test configuration which need to perform execution
           clientSecret: "249daf3f-2a7a-4072-9b63-15f393a4ba4a" # Eggplant DAI service client secret
